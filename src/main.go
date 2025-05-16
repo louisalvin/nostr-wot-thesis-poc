@@ -567,7 +567,6 @@ func main() {
 	flag.BoolVar(&interactive, "i", true, "Don't exit once ratings are displayed. Instead, switch to interactive mode. Enabled by default.")
 	var npub string
 	flag.StringVar(&npub, "npub", defaultNpub, "The npub used as a starting point for trust calculations.")
-	var testArg bool
 	flag.BoolVar(&verbose, "v", false, "Verbose mode: print debug information.")
 	// TODO: check the implementation of -benchmark parameter
 	var benchmark bool
